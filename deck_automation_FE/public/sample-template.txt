@@ -1,0 +1,63 @@
+EXCEL TEMPLATE FOR SINGLIFE ODC DECK AUTOMATION
+================================================
+
+Create an Excel file (.xlsx or .xls) with the following columns:
+
+REQUIRED COLUMNS:
+jira          | date       | description                              | status       | hours | team     | manager
+--------------|------------|------------------------------------------|--------------|-------|----------|----------
+SING-1234     | 2024-01-15 | Implement user authentication module     | Completed    | 8     | Web      | Mary
+SING-1235     | 2024-01-16 | Create dashboard UI components           | In Progress  | 6     | Web      | Mary
+SING-1236     | 2024-01-17 | Setup CI/CD pipeline for deployment      | Completed    | 10    | TechOps  | Jahir
+SING-1237     | 2024-01-18 | Implement payment gateway integration    | In Progress  | 12    | Build    | Jan Isaac
+SING-1238     | 2024-01-19 | Mobile app performance optimization      | Testing      | 8     | Mobile   | Carlo
+SING-1239     | 2024-01-20 | Write unit tests for API endpoints       | Completed    | 7     | Testing  | Julie
+
+OPTIONAL COLUMNS (for better formatting):
+teamLead                    | sprint      | sprintStart | sprintEnd  | section
+----------------------------|-------------|-------------|------------|----------
+Mary Clare Delos Reyes      | Sprint #12  | 2024-01-08  | 2024-01-22 | BACK END
+Mary Clare Delos Reyes      | Sprint #12  | 2024-01-08  | 2024-01-22 | FRONT END
+Jahir Ahmed                 | Sprint #12  | 2024-01-08  | 2024-01-22 | DEVOPS
+Jan Isaac Santos            | Sprint #12  | 2024-01-08  | 2024-01-22 | BACK END
+Carlo Martinez              | Sprint #12  | 2024-01-08  | 2024-01-22 | MOBILE
+Julie Anderson              | Sprint #12  | 2024-01-08  | 2024-01-22 | TESTING
+
+VALID VALUES:
+=============
+
+Status:
+- Completed
+- In Progress
+- Testing
+
+Team:
+- Mobile
+- Web
+- Build
+- TechOps
+- Testing
+
+Manager:
+- Carlo
+- Jan Isaac
+- Mary
+- Jahir
+- Julie
+
+Section:
+- BACK END
+- FRONT END
+- MOBILE
+- DEVOPS
+- TESTING
+
+TIPS:
+=====
+1. Keep date format as YYYY-MM-DD
+2. Ensure no empty required fields
+3. Hours should be numeric only
+4. Team and Manager names must match exactly
+5. No empty rows between data
+6. First row should be column headers
+
